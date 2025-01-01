@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="converter-container">
+                    <h2 class="text-center mb-4">Temperature Converter</h2>
+                    <div class="form-group mb-3">
+                        <label for="celsius">Celsius (°C)</label>
+                        <input type="number" class="form-control" id="celsius" placeholder="Enter temperature">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="fahrenheit">Fahrenheit (°F)</label>
+                        <input type="number" class="form-control" id="fahrenheit" placeholder="Enter temperature">
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="kelvin">Kelvin (K)</label>
+                        <input type="number" class="form-control" id="kelvin" placeholder="Enter temperature">
+                    </div>
+                    <button class="btn btn-primary w-100" onclick="clearFields()">Clear All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
